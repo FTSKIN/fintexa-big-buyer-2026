@@ -2,23 +2,23 @@
 
 **Oltre il punto vendita — I numeri della trasformazione digitale**
 
-Presentazione HTML di nove slide in formato 16:9, con Montserrat e asset inclusi.
+Presentazione HTML di nove slide in formato 16:9, con Montserrat e asset locali.
 
-## Presentazione
+## Navigazione
 
-Aprire il sito pubblicato con GitHub Pages. Usare le frecce per cambiare slide, `F` per lo schermo intero, `Home` e `End` per andare alla prima e all’ultima slide. Il pulsante di stampa permette di salvare un PDF. Su smartphone, scorrere verticalmente per leggere la slide e orizzontalmente per cambiare pagina.
+Usare le frecce per cambiare slide. **Home** riporta alla copertina, **F** attiva lo schermo intero e **I** apre l’indice. I tre capitoli e i rimandi interni consentono di raggiungere direttamente i contenuti collegati. L’indice contiene il comando Stampa / PDF. Le fonti dei dati sono accessibili dalle slide pertinenti e dal pulsante Fonti.
 
-## Pubblicazione
+Su smartphone si legge verticalmente la sola slide attiva. I collegamenti alle sezioni usano ancore parlanti; i precedenti indirizzi `#slide-1` … `#slide-9` restano supportati.
 
-In **Settings → Pages**, selezionare **Deploy from a branch**, quindi il branch `main` e la cartella `/ (root)`. Il file `.nojekyll` consente di servire direttamente i file statici.
+## Sorgenti
 
-## Aggiornamento
+- `index.html`: testi, dati, fonti, composizione e collegamenti.
+- `fintexa.css`: colori, tipografia, layout e stampa.
+- `navigazione-web.js`: navigazione, indice, tastiera e schermo intero.
+- `assets/`: loghi, immagini e font inclusi.
 
-- `index.html`: testi, dati, fonti e struttura.
-- `fintexa.css`: palette, tipografia, layout ed effetti glass.
-- `presentazione.js`: navigazione e controlli.
-- `assets/`: loghi, immagini e font.
+Mantenere la struttura delle cartelle e i percorsi relativi. La presentazione funziona anche aprendo `index.html` localmente.
 
-Mantenere i percorsi relativi e la struttura delle cartelle. Le fonti dei dati sono riportate nelle slide pertinenti.
+Montserrat è distribuito con la licenza OFL inclusa. Le icone Tabler sono distribuite con licenza MIT riportata nel sorgente HTML. Loghi e altri materiali conservano i diritti dei rispettivi titolari.
 
-Montserrat è distribuito con la licenza inclusa in `assets/fonts/OFL.txt`. I loghi e gli altri materiali conservano i diritti dei rispettivi titolari.
+I dati rappresentano il contesto nazionale e non risultati, clienti o transazioni di Fintexa. Schemi e opportunità hanno carattere concettuale.
