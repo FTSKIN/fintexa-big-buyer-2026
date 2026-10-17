@@ -25,6 +25,9 @@
     const deck = document.getElementById('deck-main') ||
       document.getElementById('deckmain') || document.getElementById('deck') || stage;
     const pad = value => String(value).padStart(2, '0');
+    const readingLayout = window.matchMedia(
+      '(max-width:800px), (max-width:1024px) and (hover:none) and (pointer:coarse)'
+    );
     let current = -1;
     let lastHandledHash;
     let fullscreenPending = false;
@@ -84,7 +87,10 @@
         slide.setAttribute('aria-hidden', String(!visible));
         slide.classList.toggle('active', visible);
       });
-      if (changed || focusHeading) active.scrollTop = 0;
+      if (changed || focusHeading) {
+        active.scrollTop = 0;
+        if (readingLayout.matches) window.scrollTo(0, 0);
+      }
       stage.dataset.theme = active.dataset.theme ||
         (active.classList.contains('light') ? 'light' : 'dark');
 

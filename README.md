@@ -8,7 +8,9 @@ Presentazione HTML di nove slide in formato 16:9, con Montserrat e asset locali.
 
 Usare le frecce per cambiare slide. **Home** riporta alla copertina, **F** attiva lo schermo intero e **I** apre l’indice. I tre capitoli e i rimandi interni consentono di raggiungere direttamente i contenuti collegati. L’indice contiene il comando Stampa / PDF. Le fonti dei dati sono accessibili dalle slide pertinenti e dal pulsante Fonti.
 
-Su smartphone si legge verticalmente la sola slide attiva. I collegamenti alle sezioni usano ancore parlanti; i precedenti indirizzi `#slide-1` … `#slide-9` restano supportati.
+Su smartphone si legge verticalmente la sola slide attiva: header, contenuto e footer scorrono insieme, senza coprirsi. La navigazione in fondo alla pagina dispone i comandi su due righe; al cambio slide si torna all’inizio. I contenitori usano margini interni coerenti e i titoli si adattano agli schermi più stretti. Sul desktop resta il formato 16:9.
+
+I collegamenti alle sezioni usano ancore parlanti; i precedenti indirizzi `#slide-1` … `#slide-9` restano supportati.
 
 ## Sorgenti
 
