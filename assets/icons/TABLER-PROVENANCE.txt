@@ -1,0 +1,10 @@
+Tabler Icons 3.49.0 — outline
+Official repository: https://github.com/tabler/tabler-icons
+Source branch consulted: main
+Pinned commit: a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d
+Retrieved: 2026-10-17
+Documentation: https://docs.tabler.io/icons/static-files/svg
+Changelog: https://tabler.io/changelog
+License: MIT; original text in TABLER-LICENSE.txt
+Icons: users, device-mobile, building-store, arrows-shuffle, credit-card, user-check, repeat, apps
+Adaptation: original geometry retained; root stroke set to 1.75 and currentColor; invisible reset path removed; inline symbol IDs prefixed with icon-.
